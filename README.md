@@ -2,7 +2,7 @@
 
 Tiron Claudia-Irina 2A2
 
-Tema1:
+Tema1: Main.java
 
 In clasa Main am construit 2 metode : main() si latinSquare().
 
