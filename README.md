@@ -3,6 +3,7 @@
 Tiron Claudia-Irina 2A2
 
 Tema1:
+
 In clasa Main am construit 2 metode : main() si latinSquare().
 
 In metoda latinSquare() creez o matrice mat de dimensiune n x n. For-ul de la i=0 la n parcurge fiecare linie a matricei care va fi completata cu valori de la 1 la n astfel:
