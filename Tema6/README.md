@@ -1,1 +1,3 @@
-
+In clasa DrawingPanel, in metoda initPanel este initializata o variabila booleana alreadyColored cu false, cu care se verifica daca o linie este sau nu colorata cu rosu sau albastru. Pentru fiecare linie selectata cu mouseclick, este parcursa lista de linii deja colorate selectedLines, si daca linia curenta nu se afla in aceasta lista, atunci variabila alreadyColored ramane false, altfel aceasta devine true. Daca aceasta linie curenta nu este deja colorata, atunci ea va fi colorata cu rosu sau albastru, in functie de jucatorul care face "mutarea", iar apoi linia respectiva este adaugata in lista selectedLines. 
+Cand un nou joc este generat cu "Create new game", lista selectedLines este resetata.
+Butonul "Export" din clasa ControlPanel realizeaza captura de ecran a tablei de joc in momentul in care este apasat, salvand o ca PNG.
