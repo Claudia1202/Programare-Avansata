@@ -1,1 +1,1 @@
-
+Am creat o baza de date in SQL Oracle. Am creat 4 tabele: Artists, Albums, Genres, Album Genres si o clasa Database in care am realizat conexiunea cu baza de date. Clasele DAO pentru Artisti, Albume si Genuri contine metode de introducere a informatiilor in baza de date, de a cauta elemente in tabele dupa nume sau id.
