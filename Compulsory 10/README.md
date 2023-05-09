@@ -1,1 +1,3 @@
-
+"lab10" este proiectul ServerApplication, ce contine clasele GameServer si ClientThread. In clasa GameServer este initializat socketul prin care serverul comunica cu clientul. In clasa ClientThread are loc comunicarea cu clientul, de la care serverul primeste comenzi pe care le exectuta si trimite inapoi un raspuns clientului.
+Daca primeste comanda "stop" de la client, serverul se opreste si anunta clientul ca s a oprit. 
+Proiectul ClientApplication contine clasa GameClient, unde se citesc comenzi de la tastatura pe care clientul le trimite ulterior serverului. Clientul inceteaza executia la primirea comezii "exit".
